@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  # s.homepage         = "https://github.com/<GITHUB_USERNAME>/RTFCPTextFieldCustomizablePlaceholder"
+  s.homepage         = "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Benjamin Maer" => "ben@resplendent.co" }
