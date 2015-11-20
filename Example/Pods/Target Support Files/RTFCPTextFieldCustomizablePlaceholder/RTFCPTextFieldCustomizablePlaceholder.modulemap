@@ -1,0 +1,6 @@
+framework module RTFCPTextFieldCustomizablePlaceholder {
+  umbrella header "RTFCPTextFieldCustomizablePlaceholder-umbrella.h"
+
+  export *
+  module * { export * }
+}
