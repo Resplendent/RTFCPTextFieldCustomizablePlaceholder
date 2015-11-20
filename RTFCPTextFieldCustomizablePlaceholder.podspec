@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Benjamin Maer" => "ben@resplendent.co" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RTFCPTextFieldCustomizablePlaceholder.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Resplendent/ResplendentUtilities.git", :tag => "v#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
