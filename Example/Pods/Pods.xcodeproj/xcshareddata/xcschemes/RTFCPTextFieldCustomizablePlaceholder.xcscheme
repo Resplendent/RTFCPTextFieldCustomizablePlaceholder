@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'AF7CD549491CDE5C7B8DE85F'
+               BlueprintIdentifier = 'EEB973D1E9F0A477CCF3F83D'
                BlueprintName = 'RTFCPTextFieldCustomizablePlaceholder'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'RTFCPTextFieldCustomizablePlaceholder.framework'>
