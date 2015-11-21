@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RTFCPTextFieldCustomizablePlaceholder"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes."
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Benjamin Maer" => "ben@resplendent.co" }
-  s.source           = { :git => "https://github.com/Resplendent/ResplendentUtilities.git", :tag => "v#{s.version}" }
+  s.source           = { :git => "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder.git", :tag => "v#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
