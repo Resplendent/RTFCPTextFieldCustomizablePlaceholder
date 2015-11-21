@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RTFCPTextFieldCustomizablePlaceholder"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes."
 
 # This description is used to generate tags and improve search results.
