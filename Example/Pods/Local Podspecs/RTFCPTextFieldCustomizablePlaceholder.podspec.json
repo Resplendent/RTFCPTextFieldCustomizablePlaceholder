@@ -1,6 +1,6 @@
 {
   "name": "RTFCPTextFieldCustomizablePlaceholder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "Subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes.",
   "homepage": "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder.git",
-    "tag": "v0.1.1"
+    "tag": "v0.1.2"
   },
   "platforms": {
     "ios": "7.0"
@@ -23,10 +23,10 @@
   },
   "dependencies": {
     "ResplendentUtilities": [
-      "~> 0.3.0"
+      "~> 0.4.0"
     ],
     "RUTextSize": [
-      "~> 0.1.6"
+      "~> 0.1.8"
     ]
   }
 }

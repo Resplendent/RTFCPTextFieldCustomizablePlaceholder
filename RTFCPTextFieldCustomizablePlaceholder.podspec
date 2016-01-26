@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RTFCPTextFieldCustomizablePlaceholder"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes."
 
 # This description is used to generate tags and improve search results.
@@ -36,6 +36,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'ResplendentUtilities', '~> 0.3.0'
-  s.dependency 'RUTextSize', '~> 0.1.6'
+  s.dependency 'ResplendentUtilities', '~> 0.4.0'
+  s.dependency 'RUTextSize', '~> 0.1.8'
 end
