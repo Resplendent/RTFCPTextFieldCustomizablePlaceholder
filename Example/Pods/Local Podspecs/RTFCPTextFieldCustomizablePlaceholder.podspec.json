@@ -12,8 +12,8 @@
     "Benjamin Maer": "ben@resplendent.co"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/RTFCPTextFieldCustomizablePlaceholder.git",
-    "tag": "0.1.3"
+    "git": "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder.git",
+    "tag": "v0.1.3"
   },
   "platforms": {
     "ios": "7.0"
