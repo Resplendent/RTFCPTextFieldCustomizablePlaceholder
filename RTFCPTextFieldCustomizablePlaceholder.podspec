@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Provides `RTFCPTextFieldCustomizablePlaceholder`, a subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes.
                        DESC
 
   s.homepage         = 'https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder'
@@ -30,6 +30,6 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'RTFCPTextFieldCustomizablePlaceholder/Classes/**/*'
 
-  s.dependency 'ResplendentUtilities', '~> 0.4.0'
-  s.dependency 'RUTextSize', '~> 0.1.8'  
+  s.dependency 'ResplendentUtilities', '~> 0.5.0'
+  s.dependency 'RUTextSize', '~> 0.1.12'
 end

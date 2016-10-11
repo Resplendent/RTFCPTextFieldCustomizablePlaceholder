@@ -21,10 +21,10 @@
   "source_files": "RTFCPTextFieldCustomizablePlaceholder/Classes/**/*",
   "dependencies": {
     "ResplendentUtilities": [
-      "~> 0.4.0"
+      "~> 0.5.0"
     ],
     "RUTextSize": [
-      "~> 0.1.8"
+      "~> 0.1.12"
     ]
   }
 }
