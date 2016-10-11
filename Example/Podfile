@@ -1,21 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
+target 'RTFCPTextFieldCustomizablePlaceholder_Example' do
+  pod 'RTFCPTextFieldCustomizablePlaceholder', :path => '../'
 
-def import_pods
-	pod "RTFCPTextFieldCustomizablePlaceholder", :path => "../"
-end
+  target 'RTFCPTextFieldCustomizablePlaceholder_Tests' do
+    inherit! :search_paths
 
-
-target 'RTFCPTextFieldCustomizablePlaceholder_Example', :exclusive => true do
-  import_pods
-end
-
-target 'RTFCPTextFieldCustomizablePlaceholder_Tests', :exclusive => true do
-  import_pods
-
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
+    
+  end
 end

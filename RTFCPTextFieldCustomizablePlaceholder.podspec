@@ -7,35 +7,29 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "RTFCPTextFieldCustomizablePlaceholder"
-  s.version          = "0.1.2"
-  s.summary          = "Subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes."
+  s.name             = 'RTFCPTextFieldCustomizablePlaceholder'
+  s.version          = '0.1.2'
+  s.summary          = 'Subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  # s.description      = <<-DESC
-  #                      DESC
+#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.homepage         = "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Benjamin Maer" => "ben@resplendent.co" }
-  s.source           = { :git => "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder.git", :tag => "v#{s.version}" }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.description      = <<-DESC
+TODO: Add long description of the pod here.
+                       DESC
 
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
+  s.homepage         = 'https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Benjamin Maer' => 'ben@resplendent.co' }
+  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/RTFCPTextFieldCustomizablePlaceholder.git', :tag => s.version.to_s }
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'RTFCPTextFieldCustomizablePlaceholder' => ['Pod/Assets/*.png']
-  }
+  s.ios.deployment_target = '7.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.source_files = 'RTFCPTextFieldCustomizablePlaceholder/Classes/**/*'
+
   s.dependency 'ResplendentUtilities', '~> 0.4.0'
-  s.dependency 'RUTextSize', '~> 0.1.8'
+  s.dependency 'RUTextSize', '~> 0.1.8'  
 end
