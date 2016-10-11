@@ -1,8 +1,8 @@
 {
   "name": "RTFCPTextFieldCustomizablePlaceholder",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "Subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "Provides `RTFCPTextFieldCustomizablePlaceholder`, a subclass of `UITextField` which allows for more customization of placeholder and text framing and attributes.",
   "homepage": "https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/<GITHUB_USERNAME>/RTFCPTextFieldCustomizablePlaceholder.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "7.0"

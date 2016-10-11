@@ -1,6 +1,6 @@
 PODS:
   - ResplendentUtilities (0.5.0)
-  - RTFCPTextFieldCustomizablePlaceholder (0.1.2):
+  - RTFCPTextFieldCustomizablePlaceholder (0.1.3):
     - ResplendentUtilities (~> 0.5.0)
     - RUTextSize (~> 0.1.12)
   - RUTextSize (0.1.12):
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   ResplendentUtilities: df8bb038d91568f9e82ee88ba5796d5d68014cdf
-  RTFCPTextFieldCustomizablePlaceholder: bede75568a3df778cefebb6984f1ce35e17655e5
+  RTFCPTextFieldCustomizablePlaceholder: 4b5a30f6ac3718292d348030f1cf5053b41eaf2b
   RUTextSize: d488ca1bbc59607724c7c50f0fad177a65bc1ba8
 
 PODFILE CHECKSUM: de53ba85e631847e9a23890fb2c32e82824e21b9
