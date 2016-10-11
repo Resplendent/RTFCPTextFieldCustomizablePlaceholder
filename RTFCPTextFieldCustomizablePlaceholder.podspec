@@ -24,7 +24,7 @@ Provides `RTFCPTextFieldCustomizablePlaceholder`, a subclass of `UITextField` wh
   s.homepage         = 'https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Benjamin Maer' => 'ben@resplendent.co' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/RTFCPTextFieldCustomizablePlaceholder.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Resplendent/RTFCPTextFieldCustomizablePlaceholder.git', :tag => "v#{s.version}" }
 
   s.ios.deployment_target = '7.0'
 
